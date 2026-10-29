@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0",
+  "automated_tests_passed": 46,
+  "test_database": "PostgreSQL embebido (PGlite), SQL real y transacciones",
+  "test_coverage": [
+    "roles administrativos y de cliente",
+    "claves individuales almacenadas como hash",
+    "suspensión y revocación inmediata",
+    "vencimiento",
+    "cuotas concurrentes",
+    "límites diarios en America/Guayaquil",
+    "idempotencia de consultas",
+    "reintegros concurrentes",
+    "aislamiento de historiales",
+    "persistencia entre instancias",
+    "auditoría sin secretos"
+  ],
+  "external_provider_calls_during_tests": 0,
+  "production_provider_test": "pendiente de credenciales reales",
+  "production_database_test": "pendiente de conexión del usuario",
+  "browser_visual_qa": "no completada; el navegador de vista previa bloqueó el entorno de prueba",
+  "source_syntax_validation": "aprobada",
+  "production_functions": [
+    "session",
+    "status",
+    "confirmation",
+    "history",
+    "admin"
+  ]
+}
